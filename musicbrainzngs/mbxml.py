@@ -481,6 +481,7 @@ def parse_release_group(rg):
                  "tag-list": parse_tag_list,
                  "user-tag-list": parse_tag_list,
                  "secondary-type-list": parse_element_list,
+                 "alias-list": parse_alias_list,
                  "relation-list": parse_relation_list,
                  "rating": parse_rating,
                  "annotation": parse_annotation}
