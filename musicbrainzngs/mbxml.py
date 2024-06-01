@@ -503,6 +503,7 @@ def parse_recording(recording):
                  "rating": parse_rating,
                  "isrc-list": parse_external_id_list,
                  "relation-list": parse_relation_list,
+                 "alias-list": parse_alias_list,
                  "annotation": parse_annotation}
 
     result.update(parse_attributes(attribs, recording))
