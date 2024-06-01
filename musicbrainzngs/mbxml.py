@@ -415,6 +415,7 @@ def parse_release(release):
                  "relation-list": parse_relation_list,
                  "annotation": parse_annotation,
                  "cover-art-archive": parse_caa,
+                 "alias-list": parse_alias_list,
                  "release-event-list": parse_release_event_list}
 
     result.update(parse_attributes(attribs, release))
